@@ -2,14 +2,10 @@
     font-family: "Raleway Light";
     src: url("/assets/fonts/Raleway/Raleway-Light.ttf") format("truetype");
   }
-  
   @font-face {
     font-family: "Raleway Medium";
     src: url("/assets/fonts/Raleway/Raleway-Medium.ttf") format("truetype");
   }
-
-
-
 body{
     margin:0;
     padding:0;
@@ -51,14 +47,16 @@ h1{
 /*Estilos seccion iconos*/
 .icons_section{
     background-color: #1E1A13;
+    opacity: 98%;
     padding: 3rem 0rem 3rem 0rem;
 }
 .icons_section h2{
+    font-family: "Raleway Medium";
+    font-size: 40px;
     text-align:center;
     margin:0rem;
-    padding-top:2rem;
-    margin-bottom: 2rem;
-
+    padding-top:1.5rem;
+    margin-bottom: 3.5rem;
 }
 .icon_container{
     display: flex;
@@ -72,16 +70,40 @@ h1{
     align-items: center;
     margin-top:1rem;
     gap: 0.8rem;
-    width: 175px;
+    width: 190px;
 }
 
 .icon_container div h3{
     margin: 0;
-    padding:1rem
+    padding:1rem;
+    font-family: "Raleway Light";
 }
 /*Estilos seccion Gallery*/
-
+.section_gallery{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    background-color: #000000;
+    padding:4rem 0rem 4rem 0rem;
+}
+.section_gallery img{
+ width: 316px;
+}
 /*Estilos footer*/
 footer{
+    padding:2rem 0rem 2rem 0rem;
     background-color: #1E1A13;
+    opacity: 94%;
+    font-size: 20px;
+    font-family: "Raleway Light";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
