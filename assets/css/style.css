@@ -1,9 +1,11 @@
 @font-face {
     font-family: "Raleway Light";
+    font-weight: 300;
     src: url("/assets/fonts/Raleway/Raleway-Light.ttf") format("truetype");
   }
   @font-face {
     font-family: "Raleway Medium";
+    font-weight: 500;
     src: url("/assets/fonts/Raleway/Raleway-Medium.ttf") format("truetype");
   }
 body{
@@ -20,7 +22,6 @@ h1{
     font-size: 50px;
     text-align: center;
     margin:0;
-    font-weight: 300;
 }
 #imgHead{
     width: 100%;
@@ -43,7 +44,6 @@ h1{
 .desc_section p{
     font-family: "Raleway Light";
 }
-
 /*Estilos seccion iconos*/
 .icons_section{
     background-color: #1E1A13;
@@ -63,7 +63,6 @@ h1{
     justify-content: center;
     gap:3rem;
 }
-
 .icon_container div{
     display: flex;
     flex-direction: column;
@@ -72,7 +71,6 @@ h1{
     gap: 0.8rem;
     width: 190px;
 }
-
 .icon_container div h3{
     margin: 0;
     padding:1rem;
@@ -102,7 +100,6 @@ footer{
     justify-content: center;
     gap:1rem;
 }
-
 footer a{
     text-decoration: none;
     color: #FFFFFF;
